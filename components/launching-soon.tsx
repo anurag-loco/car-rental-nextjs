@@ -85,7 +85,8 @@ const LaunchingSoon: NextPage = () => {
         </div>
         <div className={styles.price}>
           <button className={styles.buttonRental} onClick={onButtonRentalClick}>
-            <b className={styles.preOrder}>Pre-order NOW!</b>
+            <b className={styles.preOrder}>Subscribe and preorder</b>
+
           </button>
         </div>
       </div>
