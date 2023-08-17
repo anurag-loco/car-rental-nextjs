@@ -1,0 +1,185 @@
+.image9Icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-height: 100%;
+  width: 379.29px;
+  object-fit: cover;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.launchingSoonNissan {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+}
+.icActionsStarIcon {
+  position: relative;
+  width: 16.38px;
+  height: 16.38px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.reviewStar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.64px;
+}
+.reviewer {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.carName,
+.reviews {
+  display: flex;
+  justify-content: flex-start;
+  gap: 6.55px;
+}
+.reviews {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  font-size: 11.47px;
+  color: var(--secondary-400);
+}
+.carName {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vuesaxboldheartIcon {
+  position: relative;
+  width: 19.66px;
+  height: 19.66px;
+}
+.detailsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 26.21px;
+}
+.nismoHasBecome,
+.sport,
+.typeCar {
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.nismoHasBecome {
+  align-self: stretch;
+  line-height: 200%;
+  color: var(--secondary-400);
+}
+.sport,
+.typeCar {
+  line-height: 150%;
+}
+.sport {
+  font-weight: 600;
+  color: var(--secondary-400);
+  text-align: right;
+}
+.type {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13.11px;
+}
+.specification1 {
+  width: 131.89px;
+  flex-direction: column;
+  gap: 13.11px;
+}
+.specification,
+.specification1,
+.specification2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.specification2 {
+  width: 147.46px;
+  flex-direction: column;
+  gap: 13.11px;
+}
+.specification {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 36.04px;
+  color: var(--secondary-300);
+}
+.preOrder {
+  position: relative;
+  font-size: 11.47px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-family: var(--semibold-type16);
+  color: var(--primary-0);
+  text-align: center;
+}
+.buttonRental {
+  cursor: pointer;
+  border: 0;
+  padding: 0 16.384065628051758px;
+  background-color: var(--primary-500);
+  border-radius: 3.28px;
+  height: 44.24px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.detailCar,
+.launchingSoon {
+  background-color: var(--primary-0);
+  display: flex;
+  gap: 19.66px;
+}
+.detailCar {
+  flex: 1;
+  border-radius: 8.19px;
+  flex-direction: column;
+  padding: 19.660877227783203px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.launchingSoon {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16.38px;
+  color: var(--secondary-500);
+  font-family: var(--semibold-type16);
+}
+@media screen and (max-width: 960px) {
+  .detailCar {
+    flex: unset;
+    align-self: stretch;
+  }
+  .launchingSoon {
+    flex-direction: column;
+  }
+}
