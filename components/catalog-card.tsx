@@ -12,11 +12,12 @@ type CatalogCardType = {
   car1?: string;
   vuesaxboldprofile2user?: string;
   people?: string;
-  prop?: string;
+  prop1?: string;
 
   /** Style props */
   propWidth?: CSSProperties["width"];
   propHeight?: CSSProperties["height"];
+  catalog1Width?: CSSProperties["width"];
 };
 
 const CatalogCard: NextPage<CatalogCardType> = ({
@@ -29,9 +30,10 @@ const CatalogCard: NextPage<CatalogCardType> = ({
   car1,
   vuesaxboldprofile2user,
   people,
-  prop,
+  prop1,
   propWidth,
   propHeight,
+  catalog1Width,
 }) => {
   const carIconStyle: CSSProperties = useMemo(() => {
     return {
@@ -40,8 +42,14 @@ const CatalogCard: NextPage<CatalogCardType> = ({
     };
   }, [propWidth, propHeight]);
 
+  const catalog1Style: CSSProperties = useMemo(() => {
+    return {
+      width: catalog1Width,
+    };
+  }, [catalog1Width]);
+
   return (
-    <div className={styles.catalog1}>
+    <div className={styles.catalog1} style={catalog1Style}>
       <div className={styles.carNameParent}>
         <div className={styles.carName}>
           <b className={styles.koenigsegg}>{koenigsegg}</b>

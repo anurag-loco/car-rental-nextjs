@@ -1,0 +1,20 @@
+.catalogue,
+.catalogueCar {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.catalogue {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-13xl);
+  margin: auto;
+}
+.catalogueCar {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--semibold-type20-size);
+  color: var(--secondary-500);
+  font-family: var(--semibold-type16);
+}
